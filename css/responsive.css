@@ -1,0 +1,39 @@
+@media (max-width:991px){
+    .single_box {
+        margin: 0px 0px;
+        padding:10px;
+    }
+    .single_box p {
+        font-size: 40px;
+        margin: 0;
+    }
+    .submit_area {
+        padding: 20px 15px;
+    }
+}
+@media (max-width:767px){
+    .container {
+        max-width: 95%;
+    }
+    #login_area {
+        padding-top: 70px;
+    }
+    #account_area {
+        padding: 40px 0px;
+    }
+    .single_box p {
+        font-size: 30px;
+    }
+    .single_box{
+        margin-top: 10px;
+    }
+    .submit_area {
+        margin: 17px 0px;
+    }
+    .bank_title h1{
+        margin-bottom: 30px;
+    }
+    .status{
+        margin-top: 50px;
+    }
+}

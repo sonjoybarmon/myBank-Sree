@@ -32,9 +32,8 @@ font-family: 'Poppins', sans-serif; */
 .submit_area input {
     margin: 20px 0px;
     padding: 20px 10px;
-    border: 1px solid #00BCD4;
+    border: 2px solid #00BCD4;
     font-size: 16px;
-    box-shadow: 13px 3px 20px #2d526399;
 }
 .submit_area input::placeholder{
     color: #000000;
