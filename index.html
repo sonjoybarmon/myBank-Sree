@@ -1,16 +1,78 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>My Bank</title>
+    <title>My Bank by sonjoyBarmon</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
    </head>
-  <body>
+  <body id="body_Color">
       
+    <div class="container">
+        <div id="login_area">
+            <div class="bank_title text-center">
+                <h1>Welcome To SREE Bank</h1>
+            </div>
+            <div class="submit_area">
+                <legend>log in</legend>
+                <input type="text" class="form-control" placeholder="Enter Your Email">
+                <input type="password" class="form-control" placeholder="Enter Your Password">
+                <button id="logIn_btn" class="submit_btn btn btn-success">Enter</button>
+            </div>
+        </div>
+
+        <div id="account_area">
+          <div class="row">
+             <div class="col-md-4">
+                <div class="deposit single_box">
+                  <h2>Deposit</h2>
+                  <p>$ <span id="balanceNum">00</span> </p>
+                </div>
+             </div>
+             <div class="col-md-4">
+                <div class="withdraw single_box">
+                  <h2>Withdraw</h2>
+                  <p>$ <span id=""> 00</span></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="balance single_box">
+                  <h2>Balance</h2>
+                  <p>$ <span id="">1000</span></p>
+                </div>
+              </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-6">
+              <div class="submit_area status">
+                <h2>Deposit</h2>
+                <input id="deposit_amount" type="number" placeholder="$ amount you went to deposit " class="form-control">
+                <button id="depositBtn" class="btn btn-success submit_btn">Deposit</button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="submit_area status">
+                <h2>Deposit</h2>
+                <input type="number" placeholder="$ amount you went to deposit " class="form-control">
+                <button class="btn btn-success submit_btn">Deposit</button>
+              </div>
+            </div>
+          </div>
+
+        
+        </div>
+        
+        <!-- <div class="col-md-6">
+          
+        </div> -->
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>

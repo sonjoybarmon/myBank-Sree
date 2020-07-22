@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, #ffffff, #87cfebc0);
+    
+}
+/* font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif; */
+#login_area{
+    padding-top: 100px;
+}
+.bank_title{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif; 
+}
+.submit_area{
+    margin: 50px 0px;
+    box-shadow: 5px 5px 15px gray;
+    padding: 40px;
+    border-radius: 15px;
+    font-family: 'Lato', sans-serif;
+    background: #ffffff;
+}
+.submit_area legend{
+    font-size: 30px;
+    font-weight: 500;
+}
+.submit_area input{
+    margin: 20px 0px;
+    padding: 20px 10px;
+    border: 1px solid #666666;
+    font-size: 16px;
+}
+.submit_area input::placeholder{
+    color: #000000;
+    font-size: 16px;
+}
+.submit_btn{
+    padding: 8px 25px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    transition:all .6s ease-in-out;
+}
+.submit_btn:hover{
+    background-color: skyblue;
+    color: #ffffff;
+}
+#account_area{
+    display: none;
+    padding: 100px 0px;
+}
+.single_box{
+    margin:0px 25px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.single_box p{
+    font-size: 50px;
+}
+.deposit{
+    background: linear-gradient(90deg, #5F4ED0,#2100f681);
+}
+.withdraw{
+    background: linear-gradient(90deg, #F0976F,#ff51009f);
+}
+.balance{
+    background: linear-gradient(90deg, #F09B00,#ffa6009d);
+}
+.status{
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+}
+.deposit.single_box h2 {
+    font-weight: 600;
+}
