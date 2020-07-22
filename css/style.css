@@ -11,6 +11,9 @@ font-family: 'Poppins', sans-serif; */
 #login_area{
     padding-top: 100px;
 }
+.bank_title span{
+    color: deeppink;
+}
 .bank_title{
     text-transform: uppercase;
     letter-spacing: 1px;
