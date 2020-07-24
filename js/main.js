@@ -1,6 +1,26 @@
 //login button event handler
+// const logInBtn = document.getElementById("logIn_btn");
+//     logInBtn.addEventListener("click",function(){
+//     const logInArea = document.getElementById("login_area");
+//     logInArea.style.display ="none";
+
+//     const accountArea = document.getElementById("account_area");
+//         accountArea.style.display ="block";
+
+//     const bodyColor = document.getElementById("body_Color");
+//         bodyColor.style.background="linear-gradient(90deg ,#87cfebc0, #ffffff)";
+// });
+
+// login form disappear and dashboard appear
 const logInBtn = document.getElementById("logIn_btn");
     logInBtn.addEventListener("click",function(){
+
+  const emailInput = document.getElementById("login_form1").value;
+  const passwordInput = document.getElementById("login_form2").value;
+
+  if (emailInput.length === 0 || passwordInput.length === 0) {
+        alert("please Enter the proper info");
+  } else {
     const logInArea = document.getElementById("login_area");
     logInArea.style.display ="none";
 
@@ -9,6 +29,7 @@ const logInBtn = document.getElementById("logIn_btn");
 
     const bodyColor = document.getElementById("body_Color");
         bodyColor.style.background="linear-gradient(90deg ,#87cfebc0, #ffffff)";
+  }
 });
 
 //deposit button event handler.
