@@ -19,7 +19,7 @@ const logInBtn = document.getElementById("logIn_btn");
   const passwordInput = document.getElementById("login_form2").value;
 
   if (emailInput.length === 0 || passwordInput.length === 0) {
-        alert("please Enter the proper info");
+        alert("Please Enter Your Email And Password.");
   } else {
     const logInArea = document.getElementById("login_area");
     logInArea.style.display ="none";
